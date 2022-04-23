@@ -1,6 +1,5 @@
 import React from "react";
 import cafes from "../sample-cafes";
-import * as Path from "path";
 
 class Landing extends React.Component {
     state = {
