@@ -1,9 +1,16 @@
 import React from "react";
+import Header from './Header';
 
 class App extends React.Component {
     render() {
         return(
-            {/*app code will be here*/}
+            <div className={'burger-paradise'}>
+                <div className={'menu-burger'}>
+                    <Header />
+                </div>
+            </div>
         )
     }
 }
+
+export default App;
